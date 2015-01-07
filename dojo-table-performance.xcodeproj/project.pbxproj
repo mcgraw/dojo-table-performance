@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03D44941A59E94A00DDC678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44931A59E94A00DDC678 /* AppDelegate.swift */; };
+		F03D44961A59E94A00DDC678 /* XMCFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44951A59E94A00DDC678 /* XMCFeedTableViewController.swift */; };
+		F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D44971A59E94A00DDC678 /* Main.storyboard */; };
+		F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D449A1A59E94A00DDC678 /* Images.xcassets */; };
+		F03D44AA1A59E94A00DDC678 /* dojo_table_performanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */; };
+		F06AA0C91A5DAFF9002C172C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B51A5DAFF9002C172C /* Cache.swift */; };
+		F06AA0CA1A5DAFF9002C172C /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */; };
+		F06AA0CB1A5DAFF9002C172C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */; };
+		F06AA0CC1A5DAFF9002C172C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B81A5DAFF9002C172C /* Data.swift */; };
+		F06AA0CD1A5DAFF9002C172C /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B91A5DAFF9002C172C /* DiskCache.swift */; };
+		F06AA0CE1A5DAFF9002C172C /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */; };
+		F06AA0CF1A5DAFF9002C172C /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BB1A5DAFF9002C172C /* Fetch.swift */; };
+		F06AA0D01A5DAFF9002C172C /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */; };
+		F06AA0D11A5DAFF9002C172C /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BD1A5DAFF9002C172C /* Format.swift */; };
+		F06AA0D21A5DAFF9002C172C /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BF1A5DAFF9002C172C /* Haneke.swift */; };
+		F06AA0D31A5DAFF9002C172C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06AA0C01A5DAFF9002C172C /* Info.plist */; };
+		F06AA0D41A5DAFF9002C172C /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */; };
+		F06AA0D51A5DAFF9002C172C /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */; };
+		F06AA0D61A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */; };
+		F06AA0D71A5DAFF9002C172C /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */; };
+		F06AA0D81A5DAFF9002C172C /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */; };
+		F06AA0D91A5DAFF9002C172C /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */; };
+		F06AA0DA1A5DAFF9002C172C /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */; };
+		F06AA0DB1A5DAFF9002C172C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */; };
+		F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */; };
+		F0D199611A5A006600E3D2DB /* XMCFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199601A5A006600E3D2DB /* XMCFeedTableViewCell.swift */; };
+		F0D199631A5A032400E3D2DB /* XMCDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199621A5A032400E3D2DB /* XMCDog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F03D44A41A59E94A00DDC678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D44861A59E94A00DDC678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03D448D1A59E94A00DDC678;
+			remoteInfo = "dojo-table-performance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F03D448E1A59E94A00DDC678 /* dojo-table-performance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-table-performance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03D44921A59E94A00DDC678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03D44931A59E94A00DDC678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F03D44951A59E94A00DDC678 /* XMCFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCFeedTableViewController.swift; sourceTree = "<group>"; };
+		F03D44981A59E94A00DDC678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F03D449A1A59E94A00DDC678 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-table-performanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03D44A81A59E94A00DDC678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_table_performanceTests.swift; sourceTree = "<group>"; };
+		F06AA0B51A5DAFF9002C172C /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Swift.swift"; sourceTree = "<group>"; };
+		F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		F06AA0B81A5DAFF9002C172C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F06AA0B91A5DAFF9002C172C /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskFetcher.swift; sourceTree = "<group>"; };
+		F06AA0BB1A5DAFF9002C172C /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		F06AA0BD1A5DAFF9002C172C /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		F06AA0BE1A5DAFF9002C172C /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haneke.h; sourceTree = "<group>"; };
+		F06AA0BF1A5DAFF9002C172C /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haneke.swift; sourceTree = "<group>"; };
+		F06AA0C01A5DAFF9002C172C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
+		F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Haneke.swift"; sourceTree = "<group>"; };
+		F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_rank_3.xib; sourceTree = "<group>"; };
+		F0D199601A5A006600E3D2DB /* XMCFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCFeedTableViewCell.swift; sourceTree = "<group>"; };
+		F0D199621A5A032400E3D2DB /* XMCDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCDog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03D448B1A59E94A00DDC678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03D44A01A59E94A00DDC678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03D44851A59E94A00DDC678 = {
+			isa = PBXGroup;
+			children = (
+				F03D44901A59E94A00DDC678 /* dojo-table-performance */,
+				F03D44A61A59E94A00DDC678 /* dojo-table-performanceTests */,
+				F03D448F1A59E94A00DDC678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F03D448F1A59E94A00DDC678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03D448E1A59E94A00DDC678 /* dojo-table-performance.app */,
+				F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03D44901A59E94A00DDC678 /* dojo-table-performance */ = {
+			isa = PBXGroup;
+			children = (
+				F03D44931A59E94A00DDC678 /* AppDelegate.swift */,
+				F03D44951A59E94A00DDC678 /* XMCFeedTableViewController.swift */,
+				F0D199601A5A006600E3D2DB /* XMCFeedTableViewCell.swift */,
+				F0D199621A5A032400E3D2DB /* XMCDog.swift */,
+				F03D44971A59E94A00DDC678 /* Main.storyboard */,
+				F03D449A1A59E94A00DDC678 /* Images.xcassets */,
+				F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */,
+				F06AA0B41A5DAFF9002C172C /* Haneke */,
+				F03D44911A59E94A00DDC678 /* Supporting Files */,
+			);
+			path = "dojo-table-performance";
+			sourceTree = "<group>";
+		};
+		F03D44911A59E94A00DDC678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03D44921A59E94A00DDC678 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F03D44A61A59E94A00DDC678 /* dojo-table-performanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */,
+				F03D44A71A59E94A00DDC678 /* Supporting Files */,
+			);
+			path = "dojo-table-performanceTests";
+			sourceTree = "<group>";
+		};
+		F03D44A71A59E94A00DDC678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03D44A81A59E94A00DDC678 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06AA0B41A5DAFF9002C172C /* Haneke */ = {
+			isa = PBXGroup;
+			children = (
+				F06AA0B51A5DAFF9002C172C /* Cache.swift */,
+				F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */,
+				F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */,
+				F06AA0B81A5DAFF9002C172C /* Data.swift */,
+				F06AA0B91A5DAFF9002C172C /* DiskCache.swift */,
+				F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */,
+				F06AA0BB1A5DAFF9002C172C /* Fetch.swift */,
+				F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */,
+				F06AA0BD1A5DAFF9002C172C /* Format.swift */,
+				F06AA0BE1A5DAFF9002C172C /* Haneke.h */,
+				F06AA0BF1A5DAFF9002C172C /* Haneke.swift */,
+				F06AA0C01A5DAFF9002C172C /* Info.plist */,
+				F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */,
+				F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */,
+				F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */,
+				F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */,
+				F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */,
+				F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */,
+				F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */,
+				F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */,
+			);
+			path = Haneke;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03D448D1A59E94A00DDC678 /* dojo-table-performance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03D44AD1A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performance" */;
+			buildPhases = (
+				F03D448A1A59E94A00DDC678 /* Sources */,
+				F03D448B1A59E94A00DDC678 /* Frameworks */,
+				F03D448C1A59E94A00DDC678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-table-performance";
+			productName = "dojo-table-performance";
+			productReference = F03D448E1A59E94A00DDC678 /* dojo-table-performance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F03D44A21A59E94A00DDC678 /* dojo-table-performanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03D44B01A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performanceTests" */;
+			buildPhases = (
+				F03D449F1A59E94A00DDC678 /* Sources */,
+				F03D44A01A59E94A00DDC678 /* Frameworks */,
+				F03D44A11A59E94A00DDC678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03D44A51A59E94A00DDC678 /* PBXTargetDependency */,
+			);
+			name = "dojo-table-performanceTests";
+			productName = "dojo-table-performanceTests";
+			productReference = F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03D44861A59E94A00DDC678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David McGraw";
+				TargetAttributes = {
+					F03D448D1A59E94A00DDC678 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = TS6V23BE8W;
+					};
+					F03D44A21A59E94A00DDC678 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F03D448D1A59E94A00DDC678;
+					};
+				};
+			};
+			buildConfigurationList = F03D44891A59E94A00DDC678 /* Build configuration list for PBXProject "dojo-table-performance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03D44851A59E94A00DDC678;
+			productRefGroup = F03D448F1A59E94A00DDC678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03D448D1A59E94A00DDC678 /* dojo-table-performance */,
+				F03D44A21A59E94A00DDC678 /* dojo-table-performanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03D448C1A59E94A00DDC678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */,
+				F06AA0D31A5DAFF9002C172C /* Info.plist in Resources */,
+				F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */,
+				F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03D44A11A59E94A00DDC678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03D448A1A59E94A00DDC678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06AA0CF1A5DAFF9002C172C /* Fetch.swift in Sources */,
+				F03D44961A59E94A00DDC678 /* XMCFeedTableViewController.swift in Sources */,
+				F06AA0D71A5DAFF9002C172C /* String+Haneke.swift in Sources */,
+				F06AA0D91A5DAFF9002C172C /* UIImage+Haneke.swift in Sources */,
+				F06AA0D11A5DAFF9002C172C /* Format.swift in Sources */,
+				F06AA0C91A5DAFF9002C172C /* Cache.swift in Sources */,
+				F06AA0CA1A5DAFF9002C172C /* CGSize+Swift.swift in Sources */,
+				F06AA0D81A5DAFF9002C172C /* UIButton+Haneke.swift in Sources */,
+				F06AA0D21A5DAFF9002C172C /* Haneke.swift in Sources */,
+				F0D199631A5A032400E3D2DB /* XMCDog.swift in Sources */,
+				F06AA0D41A5DAFF9002C172C /* NetworkFetcher.swift in Sources */,
+				F06AA0D51A5DAFF9002C172C /* NSFileManager+Haneke.swift in Sources */,
+				F06AA0D61A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				F06AA0DA1A5DAFF9002C172C /* UIImageView+Haneke.swift in Sources */,
+				F06AA0D01A5DAFF9002C172C /* Fetcher.swift in Sources */,
+				F03D44941A59E94A00DDC678 /* AppDelegate.swift in Sources */,
+				F06AA0CD1A5DAFF9002C172C /* DiskCache.swift in Sources */,
+				F06AA0CE1A5DAFF9002C172C /* DiskFetcher.swift in Sources */,
+				F06AA0DB1A5DAFF9002C172C /* UIView+Haneke.swift in Sources */,
+				F06AA0CB1A5DAFF9002C172C /* CryptoSwiftMD5.swift in Sources */,
+				F0D199611A5A006600E3D2DB /* XMCFeedTableViewCell.swift in Sources */,
+				F06AA0CC1A5DAFF9002C172C /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03D449F1A59E94A00DDC678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03D44AA1A59E94A00DDC678 /* dojo_table_performanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03D44A51A59E94A00DDC678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03D448D1A59E94A00DDC678 /* dojo-table-performance */;
+			targetProxy = F03D44A41A59E94A00DDC678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F03D44971A59E94A00DDC678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03D44981A59E94A00DDC678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F03D44AB1A59E94A00DDC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F03D44AC1A59E94A00DDC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03D44AE1A59E94A00DDC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "dojo-table-performance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F03D44AF1A59E94A00DDC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "dojo-table-performance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F03D44B11A59E94A00DDC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-table-performanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-table-performance.app/dojo-table-performance";
+			};
+			name = Debug;
+		};
+		F03D44B21A59E94A00DDC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dojo-table-performanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-table-performance.app/dojo-table-performance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03D44891A59E94A00DDC678 /* Build configuration list for PBXProject "dojo-table-performance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03D44AB1A59E94A00DDC678 /* Debug */,
+				F03D44AC1A59E94A00DDC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03D44AD1A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03D44AE1A59E94A00DDC678 /* Debug */,
+				F03D44AF1A59E94A00DDC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03D44B01A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03D44B11A59E94A00DDC678 /* Debug */,
+				F03D44B21A59E94A00DDC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03D44861A59E94A00DDC678 /* Project object */;
+}
