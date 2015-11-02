@@ -12,25 +12,25 @@
 		F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D44971A59E94A00DDC678 /* Main.storyboard */; };
 		F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D449A1A59E94A00DDC678 /* Images.xcassets */; };
 		F03D44AA1A59E94A00DDC678 /* dojo_table_performanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */; };
-		F06AA0C91A5DAFF9002C172C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B51A5DAFF9002C172C /* Cache.swift */; };
-		F06AA0CA1A5DAFF9002C172C /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */; };
-		F06AA0CB1A5DAFF9002C172C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */; };
-		F06AA0CC1A5DAFF9002C172C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B81A5DAFF9002C172C /* Data.swift */; };
-		F06AA0CD1A5DAFF9002C172C /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0B91A5DAFF9002C172C /* DiskCache.swift */; };
-		F06AA0CE1A5DAFF9002C172C /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */; };
-		F06AA0CF1A5DAFF9002C172C /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BB1A5DAFF9002C172C /* Fetch.swift */; };
-		F06AA0D01A5DAFF9002C172C /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */; };
-		F06AA0D11A5DAFF9002C172C /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BD1A5DAFF9002C172C /* Format.swift */; };
-		F06AA0D21A5DAFF9002C172C /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0BF1A5DAFF9002C172C /* Haneke.swift */; };
-		F06AA0D31A5DAFF9002C172C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06AA0C01A5DAFF9002C172C /* Info.plist */; };
-		F06AA0D41A5DAFF9002C172C /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */; };
-		F06AA0D51A5DAFF9002C172C /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */; };
-		F06AA0D61A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */; };
-		F06AA0D71A5DAFF9002C172C /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */; };
-		F06AA0D81A5DAFF9002C172C /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */; };
-		F06AA0D91A5DAFF9002C172C /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */; };
-		F06AA0DA1A5DAFF9002C172C /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */; };
-		F06AA0DB1A5DAFF9002C172C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */; };
+		F0A520351BE7D991000A0AA7 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5200B1BE7D991000A0AA7 /* PINCache.m */; };
+		F0A520361BE7D991000A0AA7 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5200D1BE7D991000A0AA7 /* PINDiskCache.m */; };
+		F0A520371BE7D991000A0AA7 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5200F1BE7D991000A0AA7 /* PINMemoryCache.m */; };
+		F0A520381BE7D991000A0AA7 /* NSData+ImageDetectors.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520131BE7D991000A0AA7 /* NSData+ImageDetectors.m */; };
+		F0A520391BE7D991000A0AA7 /* UIImage+DecodedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520151BE7D991000A0AA7 /* UIImage+DecodedImage.m */; };
+		F0A5203A1BE7D991000A0AA7 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520171BE7D991000A0AA7 /* UIImage+WebP.m */; };
+		F0A5203B1BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5201A1BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.m */; };
+		F0A5203C1BE7D991000A0AA7 /* UIButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5201C1BE7D991000A0AA7 /* UIButton+PINRemoteImage.m */; };
+		F0A5203D1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5201E1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.m */; };
+		F0A5203E1BE7D991000A0AA7 /* PINDataTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520201BE7D991000A0AA7 /* PINDataTaskOperation.m */; };
+		F0A5203F1BE7D991000A0AA7 /* PINProgressiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520221BE7D991000A0AA7 /* PINProgressiveImage.m */; };
+		F0A520401BE7D991000A0AA7 /* PINRemoteImageCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520251BE7D991000A0AA7 /* PINRemoteImageCallbacks.m */; };
+		F0A520411BE7D991000A0AA7 /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520271BE7D991000A0AA7 /* PINRemoteImageCategoryManager.m */; };
+		F0A520421BE7D991000A0AA7 /* PINRemoteImageDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520291BE7D991000A0AA7 /* PINRemoteImageDownloadTask.m */; };
+		F0A520431BE7D991000A0AA7 /* PINRemoteImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5202C1BE7D991000A0AA7 /* PINRemoteImageManager.m */; };
+		F0A520441BE7D991000A0AA7 /* PINRemoteImageManagerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5202E1BE7D991000A0AA7 /* PINRemoteImageManagerResult.m */; };
+		F0A520451BE7D991000A0AA7 /* PINRemoteImageProcessorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520301BE7D991000A0AA7 /* PINRemoteImageProcessorTask.m */; };
+		F0A520461BE7D991000A0AA7 /* PINRemoteImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520321BE7D991000A0AA7 /* PINRemoteImageTask.m */; };
+		F0A520471BE7D991000A0AA7 /* PINURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A520341BE7D991000A0AA7 /* PINURLSessionManager.m */; };
 		F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */; };
 		F0D199611A5A006600E3D2DB /* XMCFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199601A5A006600E3D2DB /* XMCFeedTableViewCell.swift */; };
 		F0D199631A5A032400E3D2DB /* XMCDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199621A5A032400E3D2DB /* XMCDog.swift */; };
@@ -56,26 +56,48 @@
 		F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-table-performanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D44A81A59E94A00DDC678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_table_performanceTests.swift; sourceTree = "<group>"; };
-		F06AA0B51A5DAFF9002C172C /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
-		F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Swift.swift"; sourceTree = "<group>"; };
-		F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSwiftMD5.swift; sourceTree = "<group>"; };
-		F06AA0B81A5DAFF9002C172C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		F06AA0B91A5DAFF9002C172C /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
-		F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskFetcher.swift; sourceTree = "<group>"; };
-		F06AA0BB1A5DAFF9002C172C /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
-		F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
-		F06AA0BD1A5DAFF9002C172C /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
-		F06AA0BE1A5DAFF9002C172C /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haneke.h; sourceTree = "<group>"; };
-		F06AA0BF1A5DAFF9002C172C /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haneke.swift; sourceTree = "<group>"; };
-		F06AA0C01A5DAFF9002C172C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
-		F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Haneke.swift"; sourceTree = "<group>"; };
+		F0A520091BE7D991000A0AA7 /* Nullability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nullability.h; sourceTree = "<group>"; };
+		F0A5200A1BE7D991000A0AA7 /* PINCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
+		F0A5200B1BE7D991000A0AA7 /* PINCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
+		F0A5200C1BE7D991000A0AA7 /* PINDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
+		F0A5200D1BE7D991000A0AA7 /* PINDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
+		F0A5200E1BE7D991000A0AA7 /* PINMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
+		F0A5200F1BE7D991000A0AA7 /* PINMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		F0A520121BE7D991000A0AA7 /* NSData+ImageDetectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageDetectors.h"; sourceTree = "<group>"; };
+		F0A520131BE7D991000A0AA7 /* NSData+ImageDetectors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageDetectors.m"; sourceTree = "<group>"; };
+		F0A520141BE7D991000A0AA7 /* UIImage+DecodedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DecodedImage.h"; sourceTree = "<group>"; };
+		F0A520151BE7D991000A0AA7 /* UIImage+DecodedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DecodedImage.m"; sourceTree = "<group>"; };
+		F0A520161BE7D991000A0AA7 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		F0A520171BE7D991000A0AA7 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		F0A520191BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+PINRemoteImage.h"; sourceTree = "<group>"; };
+		F0A5201A1BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+PINRemoteImage.m"; sourceTree = "<group>"; };
+		F0A5201B1BE7D991000A0AA7 /* UIButton+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PINRemoteImage.h"; sourceTree = "<group>"; };
+		F0A5201C1BE7D991000A0AA7 /* UIButton+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PINRemoteImage.m"; sourceTree = "<group>"; };
+		F0A5201D1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PINRemoteImage.h"; sourceTree = "<group>"; };
+		F0A5201E1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PINRemoteImage.m"; sourceTree = "<group>"; };
+		F0A5201F1BE7D991000A0AA7 /* PINDataTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDataTaskOperation.h; sourceTree = "<group>"; };
+		F0A520201BE7D991000A0AA7 /* PINDataTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDataTaskOperation.m; sourceTree = "<group>"; };
+		F0A520211BE7D991000A0AA7 /* PINProgressiveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINProgressiveImage.h; sourceTree = "<group>"; };
+		F0A520221BE7D991000A0AA7 /* PINProgressiveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINProgressiveImage.m; sourceTree = "<group>"; };
+		F0A520231BE7D991000A0AA7 /* PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImage.h; sourceTree = "<group>"; };
+		F0A520241BE7D991000A0AA7 /* PINRemoteImageCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageCallbacks.h; sourceTree = "<group>"; };
+		F0A520251BE7D991000A0AA7 /* PINRemoteImageCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageCallbacks.m; sourceTree = "<group>"; };
+		F0A520261BE7D991000A0AA7 /* PINRemoteImageCategoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageCategoryManager.h; sourceTree = "<group>"; };
+		F0A520271BE7D991000A0AA7 /* PINRemoteImageCategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageCategoryManager.m; sourceTree = "<group>"; };
+		F0A520281BE7D991000A0AA7 /* PINRemoteImageDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageDownloadTask.h; sourceTree = "<group>"; };
+		F0A520291BE7D991000A0AA7 /* PINRemoteImageDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageDownloadTask.m; sourceTree = "<group>"; };
+		F0A5202A1BE7D991000A0AA7 /* PINRemoteImageMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageMacros.h; sourceTree = "<group>"; };
+		F0A5202B1BE7D991000A0AA7 /* PINRemoteImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageManager.h; sourceTree = "<group>"; };
+		F0A5202C1BE7D991000A0AA7 /* PINRemoteImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageManager.m; sourceTree = "<group>"; };
+		F0A5202D1BE7D991000A0AA7 /* PINRemoteImageManagerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageManagerResult.h; sourceTree = "<group>"; };
+		F0A5202E1BE7D991000A0AA7 /* PINRemoteImageManagerResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageManagerResult.m; sourceTree = "<group>"; };
+		F0A5202F1BE7D991000A0AA7 /* PINRemoteImageProcessorTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageProcessorTask.h; sourceTree = "<group>"; };
+		F0A520301BE7D991000A0AA7 /* PINRemoteImageProcessorTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageProcessorTask.m; sourceTree = "<group>"; };
+		F0A520311BE7D991000A0AA7 /* PINRemoteImageTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINRemoteImageTask.h; sourceTree = "<group>"; };
+		F0A520321BE7D991000A0AA7 /* PINRemoteImageTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageTask.m; sourceTree = "<group>"; };
+		F0A520331BE7D991000A0AA7 /* PINURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINURLSessionManager.h; sourceTree = "<group>"; };
+		F0A520341BE7D991000A0AA7 /* PINURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINURLSessionManager.m; sourceTree = "<group>"; };
+		F0A5204F1BE7DA19000A0AA7 /* performance-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "performance-bridging-header.h"; path = "../performance-bridging-header.h"; sourceTree = "<group>"; };
 		F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_rank_3.xib; sourceTree = "<group>"; };
 		F0D199601A5A006600E3D2DB /* XMCFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCFeedTableViewCell.swift; sourceTree = "<group>"; };
 		F0D199621A5A032400E3D2DB /* XMCDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCDog.swift; sourceTree = "<group>"; };
@@ -105,6 +127,7 @@
 				F03D44901A59E94A00DDC678 /* dojo-table-performance */,
 				F03D44A61A59E94A00DDC678 /* dojo-table-performanceTests */,
 				F03D448F1A59E94A00DDC678 /* Products */,
+				F0A520491BE7D9A4000A0AA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +150,7 @@
 				F03D44971A59E94A00DDC678 /* Main.storyboard */,
 				F03D449A1A59E94A00DDC678 /* Images.xcassets */,
 				F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */,
-				F06AA0B41A5DAFF9002C172C /* Haneke */,
+				F0A5204F1BE7DA19000A0AA7 /* performance-bridging-header.h */,
 				F03D44911A59E94A00DDC678 /* Supporting Files */,
 			);
 			path = "dojo-table-performance";
@@ -158,31 +181,86 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F06AA0B41A5DAFF9002C172C /* Haneke */ = {
+		F0A520081BE7D991000A0AA7 /* PINCache */ = {
 			isa = PBXGroup;
 			children = (
-				F06AA0B51A5DAFF9002C172C /* Cache.swift */,
-				F06AA0B61A5DAFF9002C172C /* CGSize+Swift.swift */,
-				F06AA0B71A5DAFF9002C172C /* CryptoSwiftMD5.swift */,
-				F06AA0B81A5DAFF9002C172C /* Data.swift */,
-				F06AA0B91A5DAFF9002C172C /* DiskCache.swift */,
-				F06AA0BA1A5DAFF9002C172C /* DiskFetcher.swift */,
-				F06AA0BB1A5DAFF9002C172C /* Fetch.swift */,
-				F06AA0BC1A5DAFF9002C172C /* Fetcher.swift */,
-				F06AA0BD1A5DAFF9002C172C /* Format.swift */,
-				F06AA0BE1A5DAFF9002C172C /* Haneke.h */,
-				F06AA0BF1A5DAFF9002C172C /* Haneke.swift */,
-				F06AA0C01A5DAFF9002C172C /* Info.plist */,
-				F06AA0C11A5DAFF9002C172C /* NetworkFetcher.swift */,
-				F06AA0C21A5DAFF9002C172C /* NSFileManager+Haneke.swift */,
-				F06AA0C31A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift */,
-				F06AA0C41A5DAFF9002C172C /* String+Haneke.swift */,
-				F06AA0C51A5DAFF9002C172C /* UIButton+Haneke.swift */,
-				F06AA0C61A5DAFF9002C172C /* UIImage+Haneke.swift */,
-				F06AA0C71A5DAFF9002C172C /* UIImageView+Haneke.swift */,
-				F06AA0C81A5DAFF9002C172C /* UIView+Haneke.swift */,
+				F0A520091BE7D991000A0AA7 /* Nullability.h */,
+				F0A5200A1BE7D991000A0AA7 /* PINCache.h */,
+				F0A5200B1BE7D991000A0AA7 /* PINCache.m */,
+				F0A5200C1BE7D991000A0AA7 /* PINDiskCache.h */,
+				F0A5200D1BE7D991000A0AA7 /* PINDiskCache.m */,
+				F0A5200E1BE7D991000A0AA7 /* PINMemoryCache.h */,
+				F0A5200F1BE7D991000A0AA7 /* PINMemoryCache.m */,
 			);
-			path = Haneke;
+			name = PINCache;
+			path = "dojo-table-performance/PINCache";
+			sourceTree = "<group>";
+		};
+		F0A520101BE7D991000A0AA7 /* PINRemoteImage */ = {
+			isa = PBXGroup;
+			children = (
+				F0A520111BE7D991000A0AA7 /* Categories */,
+				F0A520181BE7D991000A0AA7 /* Image Categories */,
+				F0A5201F1BE7D991000A0AA7 /* PINDataTaskOperation.h */,
+				F0A520201BE7D991000A0AA7 /* PINDataTaskOperation.m */,
+				F0A520211BE7D991000A0AA7 /* PINProgressiveImage.h */,
+				F0A520221BE7D991000A0AA7 /* PINProgressiveImage.m */,
+				F0A520231BE7D991000A0AA7 /* PINRemoteImage.h */,
+				F0A520241BE7D991000A0AA7 /* PINRemoteImageCallbacks.h */,
+				F0A520251BE7D991000A0AA7 /* PINRemoteImageCallbacks.m */,
+				F0A520261BE7D991000A0AA7 /* PINRemoteImageCategoryManager.h */,
+				F0A520271BE7D991000A0AA7 /* PINRemoteImageCategoryManager.m */,
+				F0A520281BE7D991000A0AA7 /* PINRemoteImageDownloadTask.h */,
+				F0A520291BE7D991000A0AA7 /* PINRemoteImageDownloadTask.m */,
+				F0A5202A1BE7D991000A0AA7 /* PINRemoteImageMacros.h */,
+				F0A5202B1BE7D991000A0AA7 /* PINRemoteImageManager.h */,
+				F0A5202C1BE7D991000A0AA7 /* PINRemoteImageManager.m */,
+				F0A5202D1BE7D991000A0AA7 /* PINRemoteImageManagerResult.h */,
+				F0A5202E1BE7D991000A0AA7 /* PINRemoteImageManagerResult.m */,
+				F0A5202F1BE7D991000A0AA7 /* PINRemoteImageProcessorTask.h */,
+				F0A520301BE7D991000A0AA7 /* PINRemoteImageProcessorTask.m */,
+				F0A520311BE7D991000A0AA7 /* PINRemoteImageTask.h */,
+				F0A520321BE7D991000A0AA7 /* PINRemoteImageTask.m */,
+				F0A520331BE7D991000A0AA7 /* PINURLSessionManager.h */,
+				F0A520341BE7D991000A0AA7 /* PINURLSessionManager.m */,
+			);
+			name = PINRemoteImage;
+			path = "dojo-table-performance/PINRemoteImage";
+			sourceTree = "<group>";
+		};
+		F0A520111BE7D991000A0AA7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F0A520121BE7D991000A0AA7 /* NSData+ImageDetectors.h */,
+				F0A520131BE7D991000A0AA7 /* NSData+ImageDetectors.m */,
+				F0A520141BE7D991000A0AA7 /* UIImage+DecodedImage.h */,
+				F0A520151BE7D991000A0AA7 /* UIImage+DecodedImage.m */,
+				F0A520161BE7D991000A0AA7 /* UIImage+WebP.h */,
+				F0A520171BE7D991000A0AA7 /* UIImage+WebP.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F0A520181BE7D991000A0AA7 /* Image Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F0A520191BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.h */,
+				F0A5201A1BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.m */,
+				F0A5201B1BE7D991000A0AA7 /* UIButton+PINRemoteImage.h */,
+				F0A5201C1BE7D991000A0AA7 /* UIButton+PINRemoteImage.m */,
+				F0A5201D1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.h */,
+				F0A5201E1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.m */,
+			);
+			path = "Image Categories";
+			sourceTree = "<group>";
+		};
+		F0A520491BE7D9A4000A0AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A520081BE7D991000A0AA7 /* PINCache */,
+				F0A520101BE7D991000A0AA7 /* PINRemoteImage */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +307,8 @@
 		F03D44861A59E94A00DDC678 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "David McGraw";
 				TargetAttributes = {
@@ -267,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */,
-				F06AA0D31A5DAFF9002C172C /* Info.plist in Resources */,
 				F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */,
 				F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */,
 			);
@@ -287,28 +366,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06AA0CF1A5DAFF9002C172C /* Fetch.swift in Sources */,
+				F0A520381BE7D991000A0AA7 /* NSData+ImageDetectors.m in Sources */,
 				F03D44961A59E94A00DDC678 /* XMCFeedTableViewController.swift in Sources */,
-				F06AA0D71A5DAFF9002C172C /* String+Haneke.swift in Sources */,
-				F06AA0D91A5DAFF9002C172C /* UIImage+Haneke.swift in Sources */,
-				F06AA0D11A5DAFF9002C172C /* Format.swift in Sources */,
-				F06AA0C91A5DAFF9002C172C /* Cache.swift in Sources */,
-				F06AA0CA1A5DAFF9002C172C /* CGSize+Swift.swift in Sources */,
-				F06AA0D81A5DAFF9002C172C /* UIButton+Haneke.swift in Sources */,
-				F06AA0D21A5DAFF9002C172C /* Haneke.swift in Sources */,
+				F0A5203B1BE7D991000A0AA7 /* FLAnimatedImageView+PINRemoteImage.m in Sources */,
+				F0A520391BE7D991000A0AA7 /* UIImage+DecodedImage.m in Sources */,
+				F0A520411BE7D991000A0AA7 /* PINRemoteImageCategoryManager.m in Sources */,
 				F0D199631A5A032400E3D2DB /* XMCDog.swift in Sources */,
-				F06AA0D41A5DAFF9002C172C /* NetworkFetcher.swift in Sources */,
-				F06AA0D51A5DAFF9002C172C /* NSFileManager+Haneke.swift in Sources */,
-				F06AA0D61A5DAFF9002C172C /* NSHTTPURLResponse+Haneke.swift in Sources */,
-				F06AA0DA1A5DAFF9002C172C /* UIImageView+Haneke.swift in Sources */,
-				F06AA0D01A5DAFF9002C172C /* Fetcher.swift in Sources */,
+				F0A520421BE7D991000A0AA7 /* PINRemoteImageDownloadTask.m in Sources */,
 				F03D44941A59E94A00DDC678 /* AppDelegate.swift in Sources */,
-				F06AA0CD1A5DAFF9002C172C /* DiskCache.swift in Sources */,
-				F06AA0CE1A5DAFF9002C172C /* DiskFetcher.swift in Sources */,
-				F06AA0DB1A5DAFF9002C172C /* UIView+Haneke.swift in Sources */,
-				F06AA0CB1A5DAFF9002C172C /* CryptoSwiftMD5.swift in Sources */,
+				F0A520361BE7D991000A0AA7 /* PINDiskCache.m in Sources */,
+				F0A520451BE7D991000A0AA7 /* PINRemoteImageProcessorTask.m in Sources */,
+				F0A5203C1BE7D991000A0AA7 /* UIButton+PINRemoteImage.m in Sources */,
+				F0A5203E1BE7D991000A0AA7 /* PINDataTaskOperation.m in Sources */,
+				F0A520371BE7D991000A0AA7 /* PINMemoryCache.m in Sources */,
+				F0A520471BE7D991000A0AA7 /* PINURLSessionManager.m in Sources */,
+				F0A520441BE7D991000A0AA7 /* PINRemoteImageManagerResult.m in Sources */,
+				F0A520461BE7D991000A0AA7 /* PINRemoteImageTask.m in Sources */,
+				F0A520401BE7D991000A0AA7 /* PINRemoteImageCallbacks.m in Sources */,
+				F0A5203F1BE7D991000A0AA7 /* PINProgressiveImage.m in Sources */,
+				F0A520431BE7D991000A0AA7 /* PINRemoteImageManager.m in Sources */,
+				F0A5203A1BE7D991000A0AA7 /* UIImage+WebP.m in Sources */,
+				F0A5203D1BE7D991000A0AA7 /* UIImageView+PINRemoteImage.m in Sources */,
+				F0A520351BE7D991000A0AA7 /* PINCache.m in Sources */,
 				F0D199611A5A006600E3D2DB /* XMCFeedTableViewCell.swift in Sources */,
-				F06AA0CC1A5DAFF9002C172C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +507,7 @@
 				INFOPLIST_FILE = "dojo-table-performance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "performance-bridging-header.h";
 			};
 			name = Debug;
 		};
@@ -438,6 +519,7 @@
 				INFOPLIST_FILE = "dojo-table-performance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "performance-bridging-header.h";
 			};
 			name = Release;
 		};

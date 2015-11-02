@@ -30,7 +30,7 @@ class XMCFeedTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: XMCFeedTableViewCell = tableView.dequeueReusableCellWithIdentifier("dogItemId") as XMCFeedTableViewCell
+        let cell: XMCFeedTableViewCell = tableView.dequeueReusableCellWithIdentifier("dogItemId") as! XMCFeedTableViewCell
         
         cell.updateWithRandomData()
         

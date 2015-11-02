@@ -43,7 +43,7 @@ class XMCFeedTableViewCell: UITableViewCell {
         
         // ****************
         // Dog name & Title
-        // Make sure you really need attributed strings or not. 
+        // Make sure you really need attributed strings
         
         loadAttributedText()
         
@@ -75,7 +75,7 @@ class XMCFeedTableViewCell: UITableViewCell {
     func loadPhotoWithCache() {
         let r = (arc4random() % UInt32(20))
         if let url = NSURL(string: "http://www.xmcgraw.com/pets/jpg/siberian\(r).jpg") {
-            dogPhoto.hnk_setImageFromURL(url)
+            dogPhoto.pin_setImageFromURL(url)
         }
     }
     
