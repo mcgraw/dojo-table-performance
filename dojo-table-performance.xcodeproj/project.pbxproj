@@ -12,21 +12,10 @@
 		F03D44961A59E94A00DDC678 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44951A59E94A00DDC678 /* FeedTableViewController.swift */; };
 		F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D44971A59E94A00DDC678 /* Main.storyboard */; };
 		F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D449A1A59E94A00DDC678 /* Images.xcassets */; };
-		F03D44AA1A59E94A00DDC678 /* dojo_table_performanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */; };
 		F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */; };
 		F0D199611A5A006600E3D2DB /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199601A5A006600E3D2DB /* FeedTableViewCell.swift */; };
 		F0D199631A5A032400E3D2DB /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D199621A5A032400E3D2DB /* Dog.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F03D44A41A59E94A00DDC678 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F03D44861A59E94A00DDC678 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F03D448D1A59E94A00DDC678;
-			remoteInfo = "dojo-table-performance";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		48857DAB124F049F1F9CCC85 /* Pods_dojo_table_performance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dojo_table_performance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,9 +27,6 @@
 		F03D44951A59E94A00DDC678 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		F03D44981A59E94A00DDC678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F03D449A1A59E94A00DDC678 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-table-performanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03D44A81A59E94A00DDC678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_table_performanceTests.swift; sourceTree = "<group>"; };
 		F0B91EAB1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_rank_3.xib; sourceTree = "<group>"; };
 		F0D199601A5A006600E3D2DB /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		F0D199621A5A032400E3D2DB /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
@@ -52,13 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3050F4FA019B179FFBA0A27D /* Pods_dojo_table_performance.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F03D44A01A59E94A00DDC678 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				F03D44901A59E94A00DDC678 /* dojo-table-performance */,
-				F03D44A61A59E94A00DDC678 /* dojo-table-performanceTests */,
 				F03D448F1A59E94A00DDC678 /* Products */,
 				F0A520491BE7D9A4000A0AA7 /* Frameworks */,
 				6C96FB4BFE3A3DFBEDD9817A /* Pods */,
@@ -89,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				F03D448E1A59E94A00DDC678 /* dojo-table-performance.app */,
-				F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,23 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				F03D44921A59E94A00DDC678 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F03D44A61A59E94A00DDC678 /* dojo-table-performanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				F03D44A91A59E94A00DDC678 /* dojo_table_performanceTests.swift */,
-				F03D44A71A59E94A00DDC678 /* Supporting Files */,
-			);
-			path = "dojo-table-performanceTests";
-			sourceTree = "<group>";
-		};
-		F03D44A71A59E94A00DDC678 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F03D44A81A59E94A00DDC678 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,24 +125,6 @@
 			productReference = F03D448E1A59E94A00DDC678 /* dojo-table-performance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F03D44A21A59E94A00DDC678 /* dojo-table-performanceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F03D44B01A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performanceTests" */;
-			buildPhases = (
-				F03D449F1A59E94A00DDC678 /* Sources */,
-				F03D44A01A59E94A00DDC678 /* Frameworks */,
-				F03D44A11A59E94A00DDC678 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F03D44A51A59E94A00DDC678 /* PBXTargetDependency */,
-			);
-			name = "dojo-table-performanceTests";
-			productName = "dojo-table-performanceTests";
-			productReference = F03D44A31A59E94A00DDC678 /* dojo-table-performanceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +140,6 @@
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = TS6V23BE8W;
 						LastSwiftMigration = 0830;
-					};
-					F03D44A21A59E94A00DDC678 = {
-						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0830;
-						TestTargetID = F03D448D1A59E94A00DDC678;
 					};
 				};
 			};
@@ -220,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				F03D448D1A59E94A00DDC678 /* dojo-table-performance */,
-				F03D44A21A59E94A00DDC678 /* dojo-table-performanceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +169,6 @@
 				F0B91EAC1A5DD1FE00BF3331 /* LaunchScreen_rank_3.xib in Resources */,
 				F03D44991A59E94A00DDC678 /* Main.storyboard in Resources */,
 				F03D449B1A59E94A00DDC678 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F03D44A11A59E94A00DDC678 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,23 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F03D449F1A59E94A00DDC678 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F03D44AA1A59E94A00DDC678 /* dojo_table_performanceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F03D44A51A59E94A00DDC678 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F03D448D1A59E94A00DDC678 /* dojo-table-performance */;
-			targetProxy = F03D44A41A59E94A00DDC678 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F03D44971A59E94A00DDC678 /* Main.storyboard */ = {
@@ -450,44 +363,6 @@
 			};
 			name = Release;
 		};
-		F03D44B11A59E94A00DDC678 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "dojo-table-performanceTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.igotit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-table-performance.app/dojo-table-performance";
-			};
-			name = Debug;
-		};
-		F03D44B21A59E94A00DDC678 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "dojo-table-performanceTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.igotit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-table-performance.app/dojo-table-performance";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,15 +380,6 @@
 			buildConfigurations = (
 				F03D44AE1A59E94A00DDC678 /* Debug */,
 				F03D44AF1A59E94A00DDC678 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F03D44B01A59E94A00DDC678 /* Build configuration list for PBXNativeTarget "dojo-table-performanceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F03D44B11A59E94A00DDC678 /* Debug */,
-				F03D44B21A59E94A00DDC678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
